@@ -1,18 +1,16 @@
 <?php
+    $myemail = "jasonfleetwood123@gmail.com";
 
-$myemail = "jasonfleetwood123@gmail.com";
+    $email = $_POST['email'] ;
+    $message = $_POST['message'] ;
+    $name = $_POST['name'] ;
+    $subject = $_POST['subject'] ;
 
-$email = $_POST['email'] ;
-$message = $_POST['message'] ;
-$name = $_POST['name'] ;
-$subject = $_POST['subject'] ;
+    $mailheader = "From:".$name. "<".$email.">/r/n";
 
-$mailheader = "From:".$name. "<".$email.">/r/n";
+    mail("$myemail", "$subject","$message", $mailheader);
+?>
 
-mail("$myemail", "$subject","$message", $mailheader)
-or die("error!");
-
-echo '
 <!DOCTYPE html>
 <html lang = "en">
 <html>
@@ -44,5 +42,3 @@ echo '
 </footer>
 
 </html>
-'
-?>
