@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang = "en">
+<html>
+<head>
+  <title>Contact Me</title>
+  <link rel="icon" type="image/x-icon" href="../../images/favicon.ico">
+  <link rel="stylesheet" type="text/css" href="../../CSS/styles.css" />
+  <script type = "text/javascript" src="validate.js"></script>
+</head>
+
+<body>
+  <div class = "dropdown">
+    <button class = "dropdownbtn">
+      <h2>Menu</h2>
+    </button>
+      <h2 class = "navigation_content">
+        <a href = "C:\Users\Jason\OneDrive\Desktop\Portfolio Website\index.html">Home</a>
+        <a href = "C:\Users\Jason\OneDrive\Desktop\Portfolio Website\html\projects.html">Projects</a>
+        <a href = "C:\Users\Jason\OneDrive\Desktop\Portfolio Website\html\achievements.html">Achievements</a>
+        <a href = "C:\Users\Jason\OneDrive\Desktop\Portfolio Website\html\contact\contact.html">Contact</a>
+      </h2>
+    </div>
+  <div>
+
+  <h1 style = "font-size:3em;"> Contact Me </h1>
+  <section>
+  <div class = "container">
+    <form action = "email.php" method = "post" name = "emailform" onsubmit = "return(validate());">
+      <div class = "form_row">
+        <label for = "name">Name:</label> 
+        <input type="text" required id = "name" name = "name">
+      </div>
+      <div class = "form_row">
+        <label for = "email">Email:</label>
+        <input type = "text" id = "email" name = "email"> 
+      </div>
+
+      <div class = "form_row">
+        <label for = "subject">Subject:</label> 
+        <input type = "text" required id = "subject" name = "subject"> 
+      </div>
+      <div class = "form_row">
+        <label for = "message">Message:</label> 
+        <textarea required id = "message" name = "message" cols = "30" rows = "10"></textarea>
+      </div>
+      <div class = "btn"> 
+        <input type = "submit" value = "Submit">
+      </div>
+      </form>
+    </div>
+    </section>
+</body>
+
+<footer>
+</footer>
+
+</html>
