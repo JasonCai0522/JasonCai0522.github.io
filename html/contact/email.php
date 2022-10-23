@@ -13,5 +13,7 @@ $msg =
 "Email: " . $email_address;
 "message: " . $message ;
 
-mail("$myemail", "$subject","$msg")
+mail("$myemail", "$subject","$msg");
+
+header("Location:../thankyou.html");
 ?>
