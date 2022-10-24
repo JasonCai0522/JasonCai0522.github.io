@@ -29,7 +29,7 @@
       <h2 class = "navigation_content">
         <a href = "../index.html">Home</a>
         <a href = "projects.html">Projects</a>
-        <a href = "achievements.html">Achievements</a>
+        <a href = "aboutme.html">About Me</a>
         <a href = "contact/contact.html">Contact</a>
       </h2>
     </div>
