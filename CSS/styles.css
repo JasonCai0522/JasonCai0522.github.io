@@ -23,6 +23,15 @@ body {
 a {
   font-size: 1.5vw;
 }
+
+h2 a {
+  float:center;
+  display:block;
+  color: rgb(45, 41, 240);
+  text-align: center;
+  padding: 1%;
+  font-size:1.5vw;
+}
 .homeoptions a{
   float:center;
   display:block;
