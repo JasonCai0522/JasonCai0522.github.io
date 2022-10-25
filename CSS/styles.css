@@ -42,6 +42,10 @@ h2 a {
   text-decoration: none;
   font-size:5vw;
 }
+
+.homeoptions a:hover{
+  color:rgb(175, 165, 165)
+}
 .footer {
   background-color: #f1f1f1;
   padding: 10px;
