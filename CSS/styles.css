@@ -13,13 +13,26 @@ p {
 }
 
 body {
-  background-image: url("../images/bodybg1.jpg");
+  background-image: url("../images/bodybg2.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   margin: 0;
 }
 
+a {
+  font-size: 1.5vw;
+}
+.homeoptions a{
+  float:center;
+  display:block;
+  color: black;
+  font-family: Garamond, serif;
+  text-align: center;
+  padding: 1%;
+  text-decoration: none;
+  font-size:5vw;
+}
 .footer {
   background-color: #f1f1f1;
   padding: 10px;
@@ -43,6 +56,7 @@ body {
   height: 120%;
   position:sticky;
   top:0;
+  font-size: 1vw;
 }
 
 .dropdownbtn:hover{
@@ -66,9 +80,8 @@ body {
   color: black;
   font-family: Garamond, serif;
   text-align: center;
-  padding: 10px;
+  padding: 1%;
   text-decoration: none;
-  word-spacing: 17em;
 }
 
 .navigation_content a:hover {
@@ -98,7 +111,7 @@ color: black;
   width: 40%;
   text-align: left;
   margin:2%;
-  padding-left:12%;
+  padding-left:10%;
 }
 
 .column.halfright {
@@ -106,7 +119,7 @@ color: black;
   float:right;
   text-align: right;
   margin:2%;
-  padding-right:12%;
+  padding-right:10%;
 }
 .column.aboutme {
   width: 35%;
@@ -133,16 +146,18 @@ section {
 
 .container {
   width:80%;
-  height: 820px;
+  height: 800px;
+
   max-width: 1300px;
-  background-color:#eee6e6c4;
+  max-height: 1000px;
+  background-color:#f7d9d994;
   box-shadow:10px 5px 15px rgb(199, 199, 199);
   border-radius: 30px;
 }
 
 .form_row {
-  margin-top: 20px;
-  margin-left: 25px;
+  margin-top: 2%;
+  margin-left: 2%;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: left;
   width: 100%;
@@ -151,10 +166,10 @@ section {
 .form_row input,
 .form_row textarea {
   border-radius: 10px;
-  margin-top: 20px;
-  margin-bottom: 50px;
+  margin-top: 2%;
+  margin-bottom: 2%;
   width: 95%;
-  padding: 15px 10px;
+  padding: 1% 1%;
   font-size: 1em;
 }
 
@@ -164,8 +179,8 @@ input:focus, textarea:focus {
 
 .btn input{
   position:relative;
-  left: 764px;
-  bottom: 30px;
+  left: 59%;
+  bottom: 0.7vh;
   text-align: center center;
   align-items: left;
   width: 40%;
